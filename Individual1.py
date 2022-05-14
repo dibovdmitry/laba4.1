@@ -37,6 +37,7 @@ def make_ipart(first, second):
 
 if __name__ == "__main__":
     integer_part = IntegerPart()
-    f = make_ipart(26, 5)
+    f = make_ipart(0, 0)
+    f.read()
     f.display()
     print(f.ipart())
